@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import ProjectList from "../projectList/ProjectList";
 import "./Project.scss";
 import { bootstrapcss, javascript, reactjs, nodejs } from "../../data";
-import { Select } from "@material-ui/core";
 
 function Project() {
   const [select, setSelect] = useState("cssBootstrap");

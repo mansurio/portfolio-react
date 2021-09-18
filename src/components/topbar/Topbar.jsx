@@ -1,6 +1,6 @@
 import React from "react";
 import "./Topbar.scss";
-import { SiCodio, SiGmail, SiLinkedin, SiGithub } from "react-icons/si";
+import { SiCodio } from "react-icons/si";
 
 function Topbar({ menuOpen, setMenuOpen }) {
   return (

@@ -68,6 +68,12 @@
       }
       &:hover {
         background-color: white;
+        @include mobile {
+          h3 {
+            font-size: 1em;
+          }
+        }
+
         img {
           opacity: 0.2;
           z-index: 0;

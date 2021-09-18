@@ -1,3 +1,4 @@
+@import "../../global.scss";
 li {
   font-size: 1.2em;
   margin-right: 1.5rem;
@@ -6,6 +7,9 @@ li {
   cursor: pointer;
   color: white;
   z-index: 2;
+  @include mobile {
+    font-size: 1em;
+  }
 
   &.active {
     background-color: orange;

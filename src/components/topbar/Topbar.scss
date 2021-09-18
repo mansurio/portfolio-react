@@ -6,7 +6,7 @@
   height: 10vh;
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 4;
   transition: all 1s ease;
 
   .wrapper {
@@ -25,6 +25,10 @@
       // color: $mainColor;
       transition: all 1s ease;
       padding-left: 12rem;
+      @include mobile {
+        padding: 0;
+        font-size: 1.7em;
+      }
     }
     .right {
       .hamburger {

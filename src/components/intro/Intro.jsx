@@ -29,7 +29,7 @@ function Intro() {
           </h3>
         </div>
       </div>
-      <div className="right"></div>
+      {/* <div className="right"></div> */}
     </div>
   );
 }

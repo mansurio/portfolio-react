@@ -1,0 +1,64 @@
+@import "../../global.scss";
+
+.project {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 7rem;
+  .line {
+    display: flex;
+    flex-direction: column;
+
+    .underline {
+      height: 0.3rem;
+      width: 2.5rem;
+      background-color: orange;
+      margin-top: 0.5rem;
+    }
+  }
+  h1 {
+    font-size: 2em;
+    color: white;
+  }
+  ul {
+    margin: 3rem;
+    padding: 0;
+    list-style: none;
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    flex-wrap: wrap;
+    .item {
+      margin: 0.5rem;
+      border: 1px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      transition: all 0.9s ease;
+      cursor: pointer;
+
+      img {
+        width: 16rem;
+        z-index: 1;
+      }
+      h3 {
+        font-size: 2em;
+        position: absolute;
+      }
+      &:hover {
+        background-color: white;
+        img {
+          opacity: 0.2;
+          z-index: 0;
+        }
+      }
+    }
+  }
+}

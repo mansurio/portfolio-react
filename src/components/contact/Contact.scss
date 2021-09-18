@@ -5,6 +5,10 @@
   color: white;
   display: flex;
   justify-content: center;
+  @include mobile {
+    padding-top: 6rem;
+  }
+
   .line {
     position: absolute;
     h1 {
@@ -28,19 +32,20 @@
     height: 60%;
     @include mobile {
       flex-direction: column;
+      margin-top: 6rem;
       h1 {
         display: none;
       }
     }
 
     .form {
-      width: 340px;
-      height: 500px;
+      width: 310px;
+      height: 450px;
       background: #e6e6e6;
       border-radius: 8px;
       box-shadow: 0 0 40px -10px #000;
       margin: calc(50vh - 220px) auto;
-      padding: 20px 30px;
+      padding: 3px 30px;
       max-width: calc(100vw - 40px);
       box-sizing: border-box;
       font-family: "Montserrat", sans-serif;

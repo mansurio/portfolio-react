@@ -5,7 +5,7 @@
   color: white;
   display: flex;
   justify-content: center;
-  min-height: 900px;
+
   @include mobile {
     padding-top: 6rem;
   }
